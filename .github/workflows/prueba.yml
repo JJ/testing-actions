@@ -1,0 +1,11 @@
+name: "Prueba"
+on: [push]
+
+jobs:
+  check_pr:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Prueba
+      uses: JJ/testing-actions@master
+      inputs:
+        myVar: 'qué pasa'
