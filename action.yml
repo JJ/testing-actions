@@ -1,9 +1,9 @@
 name: 'Node 12 Template Action'
-description: 'Get started with Node actions'
+description: 'Una primera prueba de GitHub Actions'
 author: 'GitHub'
 inputs:
-  myInput:
-    description: 'Input to use'
+  myVar:
+    description: 'Una entrada cualquiera'
     default: 'world'
 runs:
   using: 'node12'
