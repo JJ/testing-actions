@@ -25,6 +25,6 @@ jobs:
             && exit 1)
 
     - name: Prueba
-      uses: JJ/testing-actions@master
+      uses: JJ/testing-actions@v1
       with:
         myVar: 'qué pasa'
