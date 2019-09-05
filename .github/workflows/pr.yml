@@ -9,5 +9,6 @@ jobs:
         with:
           github-token: ${{github.token}}
           script: |
-            const creator = context.payload.sender.login
-            await github.issues.createComment( {...context.issue, body: 'OK, recibido'})
+            const title = context.payload.title
+            const body = context.payload.body
+            await github.issues.createComment( {...context.issue, body: 'Recibida con título' + title + ' y cuerpo ' + body })
