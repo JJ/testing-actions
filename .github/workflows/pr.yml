@@ -12,4 +12,4 @@ jobs:
             console.log(context.payload)
             const title = context.payload.title
             const body = context.payload.body
-            await github.issues.createComment( {...context.issue, body: 'Recibida con título ' + title + ' y cuerpo ' + body })
+            await github.issues.createComment( {...context.issue, body: 'Recibida con título ' + title + ' y ' + body })
