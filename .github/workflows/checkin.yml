@@ -27,4 +27,4 @@ jobs:
     - name: Prueba
       uses: JJ/testing-actions@releases/v1
       with:
-        myVar: 'qué pasó'
+        myVar: 'No va'
