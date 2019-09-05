@@ -2,10 +2,10 @@ name: "Prueba"
 on: [push]
 
 jobs:
-  check_pr:
+  prueba:
     runs-on: ubuntu-latest
     steps:
     - name: Prueba
       uses: JJ/testing-actions@master
-      inputs:
+      with:
         myVar: 'qué pasa'
