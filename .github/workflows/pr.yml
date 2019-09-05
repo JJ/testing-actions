@@ -10,6 +10,6 @@ jobs:
           github-token: ${{github.token}}
           script: |
             console.log(context.payload)
-            const title = context.payload.title
-            const body = context.payload.body
+            const title = context.payload.pull_request.title
+            const body = context.payload.pull_request.body
             await github.issues.createComment( {...context.issue, body: 'Recibida con título ' + title + ' y cuerpo ' + body })
