@@ -1,6 +1,6 @@
-# JavaScript Action Template
+# Repo de pruebas para *actions* de GitHub
 
-This template offers an easy way to get started writing a JavaScript action with TypeScript compile time support, unit testing with Jest and using the GitHub Actions Toolkit.
+Differentes pruebas tanto de actions como de programación de alguna nueva
 
 ## Getting Started
 
